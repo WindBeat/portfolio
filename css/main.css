@@ -54,8 +54,9 @@ GENERAL
 ***********************************/
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   background: #f3f0f0;
+  color: #35312e;
 }
 
 a {
@@ -96,7 +97,13 @@ h1 {
 
 h2 {
   padding-top: 30px;
-  font-size: 1.5em;
+  font-size: 1.8em;
+}
+
+h3 {
+  color: #f3f0f0;
+  padding-top: 15px;
+  font-size: 1.3em;
 }
 
 h4 {
@@ -117,11 +124,15 @@ li{
   margin: 0 13px;
 }
 
+.wht {
+  color: #f3f0f0;
+}
+
 #gallery {
   margin: 0;
   padding: 0;
   list-style: none;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 #gallery li {
@@ -135,7 +146,7 @@ li{
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #979c9f;
+  color: #f3f0f0;
 }
 
 #intro {
@@ -149,11 +160,11 @@ li{
 }
 
 
-#web-skills {
+#web-skills, #project-process ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 #web-skills li, #project-process li {
@@ -165,9 +176,16 @@ li{
 #web-skills li p {
   margin: 0;
   padding: 10%;
-  font-size: .85em;
+  font-size: 1.2em;
   color: black;
   text-align: left;
+}
+
+#project-process li p {
+  font-size: 1.2em;
+  color: #f3f0f0;
+  text-align: left;
+  padding-top: 5%;
 }
 
 footer {
