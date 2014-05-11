@@ -230,4 +230,7 @@ footer {
   section {
     height: 1150px;
   }
+  #projects {
+     height: 880px;
+  }
 }
